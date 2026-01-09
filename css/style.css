@@ -319,6 +319,9 @@
     font-weight: Medium;
     color: #FFFFFF;
 }
+hr{
+    border:1px solid rgba(229, 231, 235, 0.1);
+}
 .footer-msg{
     font-size: 16px;
     font-weight: Regular;
