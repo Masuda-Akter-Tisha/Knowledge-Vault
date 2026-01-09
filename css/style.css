@@ -264,6 +264,7 @@
     color: #FFFFFF;
     font-size: 16px;
     font-weight: SemiBold;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 .early-access-btn button:hover{
