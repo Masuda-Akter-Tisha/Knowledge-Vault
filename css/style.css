@@ -108,4 +108,65 @@
     font-weight: SemiBold;
     cursor: pointer;
 }
-
+/* notes-section-style */
+#notes-section{
+    width: 85%;
+    margin: 0px auto 120px auto;
+}
+.notes-content{
+    text-align: center;
+    margin-bottom: 44px;
+}
+.notes-section-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.notes-section-sub-title{
+    font-size: 16px;
+    font-weight: Regular;
+    color:#627382;
+}
+.notes-card-container{
+    display: flex;
+    gap:24px;
+    align-items: center;
+}
+.notes-box-card{
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding:24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+.card-img{
+    background-color: #F95555;
+    width: 50px;
+    height:50px;
+    border-radius:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 30px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: SemiBold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card-sub-title{
+    font-size: 16px;
+    font-weight: Regular;
+    color: #627382;
+    margin-bottom:30px;
+}
