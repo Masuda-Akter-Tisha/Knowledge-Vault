@@ -3,4 +3,47 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
 }
+/* header-section style */
+/* nav-section style */
+#navbar{
+    width: 85%;
+    margin:0px auto;
+    padding:16px 0px;
+    display: flex;
+    gap: 346px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: Medium;
+    color: rgba(0, 0, 0, 1);
+}
+.nav-btn button{
+    border: none;
+    border-radius: 4px;
+    background-color: #469165;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+.nav-btn a{
+    font-size: 16px;
+    font-weight: SemiBold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
