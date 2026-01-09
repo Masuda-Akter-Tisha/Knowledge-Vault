@@ -280,3 +280,33 @@
     font-weight: Regular;
     color: #627382;
 }
+#footer{
+    background-color: #001931;
+}
+.footer-container{
+    padding: 120px 120px 30px 120px;
+}
+.footer-menu-link-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.link{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.text-link .text{
+    font-size: 20px;
+    font-weight: Medium;
+    color: #FFFFFF;
+}
+.footer-msg{
+    font-size: 16px;
+    font-weight: Regular;
+    color: #FAFAFA;
+    text-align: center;
+    margin-top: 50px;
+}
+
